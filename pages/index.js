@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Meghan Larsen</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name='keywords' content='Meg, Meghan, Megan, Meghan Larsen, Larsen, Creative, Meghan Larson, Larson, Director of Results, Media and More, Social Media Expert'/>
       </Head>
@@ -14,7 +14,14 @@ export default function Home() {
       <main>
         <Header title="Meghan Larsen" />
         <div className={"row"}>
-          
+          <ul>
+            <li>
+              <a href={"bowAndArrow"}>bow and arrow</a>
+            </li>
+            <li>
+              <a href={"potions"}>potions</a>
+            </li>
+          </ul>
         </div>
       </main>
 
