@@ -1,4 +1,4 @@
-export const potions = () => {
+export const BottleChallenge = () => {
     return (
         <>
             <div>
@@ -17,4 +17,4 @@ export const potions = () => {
     )
 }
 
-export default potions;
+export default BottleChallenge;

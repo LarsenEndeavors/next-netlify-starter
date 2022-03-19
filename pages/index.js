@@ -16,10 +16,10 @@ export default function Home() {
         <div className={"row"}>
           <ul>
             <li>
-              <a href={"bowAndArrow"}>bow and arrow</a>
+              <a href={"ShaftChallenge"}>bow and arrow</a>
             </li>
             <li>
-              <a href={"potions"}>potions</a>
+              <a href={"BottleChallenge"}>potions</a>
             </li>
           </ul>
         </div>

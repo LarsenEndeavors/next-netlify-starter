@@ -1,4 +1,4 @@
-export const bowAndArrow = () => {
+export const ShaftChallenge = () => {
     return (
         <>
             <div className={"row"}>
@@ -13,4 +13,4 @@ export const bowAndArrow = () => {
     )
 }
 
-export default bowAndArrow;
+export default ShaftChallenge;
