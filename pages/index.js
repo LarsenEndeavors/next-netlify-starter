@@ -8,13 +8,14 @@ export default function Home() {
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name='keywords' content='Meg, Meghan, Megan, Meghan Larsen, Larsen, Creative, Meghan Larson, Larson, Director of Results, Media and More, Social Media Expert'/>
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <Header title="Meghan Larsen" />
+        <div className={"row"}>
+          
+        </div>
       </main>
 
       <Footer />
