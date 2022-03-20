@@ -1,52 +1,39 @@
-import {Nav, NavItem, NavLink, Navbar, NavbarBrand, 
-        NavbarToggler, Collapse, UncontrolledDropdown, 
-        DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';
+import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 
 export const NavbarComponent = () => {
     return (
-        <Navbar color="info" expand="md" light>
-            <NavbarBrand href="/">
+        <Navbar bg="light" expand="md">
+            <Navbar.Brand href="/">
                 <img className={"nav-logo"} src="https://i.imgur.com/fLYLVah.jpg"/>
-            </NavbarBrand>
-            <NavbarToggler onClick={function noRefCheck(){}}/>
-            <Collapse navbar>
-                <Nav className={"me-auto"} navbar>
-                    <NavItem>
-                        <NavLink href="ShaftChallenge">
-                            The Challenge of the Shaft
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="BottleChallenge">
-                            The Challenge of the Bottles
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="GemHunt">
-                            The Challenge of the Gems
-                        </NavLink>
-                    </NavItem>
-                    <UncontrolledDropdown innavbar nav>
-                        <DropdownToggle caret nav>
-                            About Meg
-                        </DropdownToggle>
-                        <DropdownMenu right>
-                            <DropdownItem href="/About/Professional">
-                                Professional
-                            </DropdownItem>
-                            <DropdownItem href="/About/Creative">
-                                Creative
-                            </DropdownItem>
-                            <DropdownItem href="/About/Personal">
-                                Personal
-                            </DropdownItem>
-                            <DropdownItem href="/About/Album">
-                                Photos
-                            </DropdownItem>
-                        </DropdownMenu>
-                    </UncontrolledDropdown>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className={"me-auto"}>
+                    <Nav.Link href="/ShaftChallenge">
+                        The Challenge of the Shaft
+                    </Nav.Link>
+                    <Nav.Link href="/BottleChallenge">
+                        The Challenge of the Bottles
+                    </Nav.Link>
+                    <Nav.Link href="/GemsHunt">
+                        The Challenge of the Gems
+                    </Nav.Link>
+                    <NavDropdown title="About Meg" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="/About/Professional">
+                            Professional
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="/About/Creative">
+                            Creative
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="/About/Personal">
+                            Personal
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="/About/Album">
+                            Photos
+                        </NavDropdown.Item>
+                    </NavDropdown>
                 </Nav>
-            </Collapse>
+            </Navbar.Collapse>
         </Navbar>
     )
 }
