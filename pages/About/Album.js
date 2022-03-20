@@ -1,5 +1,5 @@
 import Gallery from "react-grid-gallery";
-import photos from "../../.next/data/photos"
+import photos from "/data/photos"
 import ImageGallery from 'react-image-gallery';
 
 export const Album = () => {
