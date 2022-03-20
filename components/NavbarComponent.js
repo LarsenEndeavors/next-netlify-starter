@@ -12,21 +12,21 @@ export const NavbarComponent = () => {
             <Collapse navbar>
                 <Nav className={"me-auto"} navbar>
                     <NavItem>
-                        <NavLink href="ShaftChallenge">
-                            The Challenge of the Shaft
+                        <NavLink href="a">
+                            Home
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="BottleChallenge">
-                            The Challenge of the Bottles
+                        <NavLink href="a">
+                            Art
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="GemHunt">
-                            The Challenge of the Gems
+                        <NavLink href="a">
+                            Other
                         </NavLink>
                     </NavItem>
-                    <UncontrolledDropdown inNavBar nav>
+                    <UncontrolledDropdown innavbar nav>
                         <DropdownToggle caret nav>
                             About Meg
                         </DropdownToggle>
@@ -41,7 +41,7 @@ export const NavbarComponent = () => {
                                 Personal
                             </DropdownItem>
                             <DropdownItem href="About/Album">
-
+                                Photos
                             </DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>

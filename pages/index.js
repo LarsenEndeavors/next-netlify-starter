@@ -12,17 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Meghan Larsen" />
-        <div className={"row"}>
-          <ul>
-            <li>
-              <a href={"ShaftChallenge"}>bow and arrow</a>
-            </li>
-            <li>
-              <a href={"BottleChallenge"}>potions</a>
-            </li>
-          </ul>
-        </div>
+        
       </main>
 
       <Footer />
