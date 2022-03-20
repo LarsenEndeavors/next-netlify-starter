@@ -12,7 +12,13 @@ export default function Home() {
       </Head>
 
       <main>
-        
+        <div className={"row"}>
+          <div className={"center"}>
+            <a className={"btn btn-primary"} href={"/Challenge/ShaftChallenge"}>
+              Click here to begin!
+            </a>
+          </div>
+        </div>
       </main>
 
       <Footer />

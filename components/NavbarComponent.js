@@ -9,15 +9,15 @@ export const NavbarComponent = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className={"me-auto"}>
-                    <Nav.Link href="/ShaftChallenge">
+                    {/* <Nav.Link href="/Challenge/ShaftChallenge">
                         The Challenge of the Shaft
                     </Nav.Link>
-                    <Nav.Link href="/BottleChallenge">
+                    <Nav.Link href="/Challenge/BottleChallenge">
                         The Challenge of the Bottles
                     </Nav.Link>
-                    <Nav.Link href="/GemsHunt">
+                    <Nav.Link href="/Challenge/GemsHunt">
                         The Challenge of the Gems
-                    </Nav.Link>
+                    </Nav.Link> */}
                     <NavDropdown title="About Meg" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/About/Professional">
                             Professional
