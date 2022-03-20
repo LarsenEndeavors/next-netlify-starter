@@ -1,9 +1,11 @@
 import Gallery from "react-grid-gallery";
+import photos from "./data/photos"
+import ImageGallery from 'react-image-gallery';
 
 export const Album = () => {
     return (
         <div className={"row"}>
-            {/* <Gallery images={photos}/> */}
+            <ImageGallery items={photos} />
         </div>
     )
 }

@@ -12,18 +12,18 @@ export const NavbarComponent = () => {
             <Collapse navbar>
                 <Nav className={"me-auto"} navbar>
                     <NavItem>
-                        <NavLink href="a">
-                            Home
+                        <NavLink href="ShaftChallenge">
+                            The Challenge of the Shaft
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="a">
-                            Art
+                        <NavLink href="BottleChallenge">
+                            The Challenge of the Bottles
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="a">
-                            Other
+                        <NavLink href="GemHunt">
+                            The Challenge of the Gems
                         </NavLink>
                     </NavItem>
                     <UncontrolledDropdown innavbar nav>
@@ -31,16 +31,16 @@ export const NavbarComponent = () => {
                             About Meg
                         </DropdownToggle>
                         <DropdownMenu right>
-                            <DropdownItem href="About/Professional">
+                            <DropdownItem href="/About/Professional">
                                 Professional
                             </DropdownItem>
-                            <DropdownItem href="About/Creative">
+                            <DropdownItem href="/About/Creative">
                                 Creative
                             </DropdownItem>
-                            <DropdownItem href="About/Personal">
+                            <DropdownItem href="/About/Personal">
                                 Personal
                             </DropdownItem>
-                            <DropdownItem href="About/Album">
+                            <DropdownItem href="/About/Album">
                                 Photos
                             </DropdownItem>
                         </DropdownMenu>
